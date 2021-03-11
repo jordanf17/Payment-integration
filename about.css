@@ -1,0 +1,59 @@
+body{
+  background-color: #0540499c;
+}
+.container{
+  
+    padding: 3%;
+    text-align: center;
+}
+.row{
+    height: 80%;
+}
+.col-sm{
+    border:1px solid black;
+    margin: 1.5rem;
+    background-color:#b8b5ff;
+    padding: 0;
+    border-radius: 4%;
+}
+#con1{
+    height: 14rem;
+    background-image: url('images/innovate.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+}
+#con2{
+    background-image: url('images/inspire.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 14rem;
+border-radius: 4%;
+}
+#con3{
+    background-image: url('images/integrate1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 14rem;
+border-radius: 4%;
+}
+.col-sm .read-more:hover{
+  font-size: 14px;
+}
+
+.col-sm:hover{
+  box-shadow: 8px 8px 8px #6e7c7c;
+      transform:scale(1.2);
+}
+
+.col-sm{
+height:85%;
+width: 10%;
+border:1px solid #7868e6;
+transition:.3s;
+margin: 3%;
+}
+footer{
+  position:fixed;
+  width: 100%;
+}
